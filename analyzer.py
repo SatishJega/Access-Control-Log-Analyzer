@@ -17,6 +17,7 @@ def analyze_logs(log_data):
         location = entry['location']
         
         # LOGIC: If attempts > 3, flag as suspicious
+        # Basically, if they tap on more than 3 times in a minute then flag as suspicious behaviour
         if attempts > 3:
             alert = f"[ALERT] Suspicious Activity: User {user_id} attempted entry {attempts} times at {location}."
             suspicious_activity.append(alert)
@@ -27,7 +28,7 @@ def analyze_logs(log_data):
     print("--- SCAN COMPLETE ---")
     
     if not suspicious_activity:
-        print("No threats detected.")
+        print("No anomoly detected.")
     else:
         print(f"Action Required: {len(suspicious_activity)} threats found.")
 
