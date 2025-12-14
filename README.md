@@ -16,4 +16,4 @@ The script mimics a **SIEM (Security Information and Event Management)** rule:
 To demonstrate how **physical security logic** can be translated into **code** to reduce response times and improve compliance at facilities like Marina Bay Sands.
 
 ---
-*Created by [Your Name]*
+*Created by SATISH*
