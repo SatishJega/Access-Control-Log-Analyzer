@@ -5,7 +5,7 @@
 import csv
 
 # This is a dummy function to simulate reading a log file
-# In a real scenario, this would read a CSV file exported from the Access Control System
+# In a real scenario, this would read a CSV file exported from the Access Control System.
 def analyze_logs(log_data):
     suspicious_activity = []
     
