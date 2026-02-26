@@ -13,7 +13,6 @@ The script mimics a **SIEM (Security Information and Event Management)** rule:
 4. **Alerts** the security team automatically.
 
 ## 🚀 Why I Built This
-To demonstrate how **physical security logic** can be translated into **code** to reduce response times and improve compliance at facilities like Marina Bay Sands.
-
+To demonstrate how physical security logic can be translated into automated code. By mirroring SIEM principles, this tool reduces incident response times and strengthens compliance for large-scale enterprise and hospitality environments.
 ---
 *Created by SATISH*
