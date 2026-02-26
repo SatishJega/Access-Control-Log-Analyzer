@@ -34,10 +34,10 @@ def analyze_logs(log_data):
 
 # Dummy Data (Simulating a CSV export from the security system)
 dummy_logs = [
-    {'user_id': 'MBS001', 'location': 'Server Room A', 'attempts': 1},
-    {'user_id': 'MBS002', 'location': 'Casino Vault', 'attempts': 5}, # This guy is suspicious!
-    {'user_id': 'MBS003', 'location': 'Staff Exit', 'attempts': 1},
-    {'user_id': 'MBS004', 'location': 'Hotel Ops', 'attempts': 12}  # Very suspicious!
+    {'user_id': 'PPL001', 'location': 'Server Room A', 'attempts': 1},
+    {'user_id': 'PPL002', 'location': 'Casino Vault', 'attempts': 5}, # This guy is suspicious!
+    {'user_id': 'PPL003', 'location': 'Staff Exit', 'attempts': 1},
+    {'user_id': 'PPL004', 'location': 'Hotel Ops', 'attempts': 12}  # Very suspicious!
 ]
 
 # Run the tool
